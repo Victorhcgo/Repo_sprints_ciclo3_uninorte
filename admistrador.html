@@ -9,9 +9,15 @@
     
 </head>
 <body>
-    <!-- pasar a otras ventanas -->
-    <a href="/home.html"> Ir al home</a><br>
-    <!--  -->
+    <!-- inicio => pasar a otras ventanas -->
+    <div class="contenedor2">
+        <form action="" class="form2">
+            <div class="form-header2">   
+                <h1 class="form-title2"><a href="/home.html"> Ir al Home</a></h1>
+            </div>
+        </form>
+    </div>
+    <!-- fin => pasar a otras ventanas -->
 
 
     <div class="contenedor">
@@ -66,8 +72,17 @@
             <label for="mensaje" class="form-label"> Mensaje</label>
             <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="form-textarea"></textarea>
 
-            <input class="btn-submit" type="submit" value="Registrar">
-            <input class="btn-submit" type="submit" value="Modificar">
+            <div class="contenedorbtn">
+                <div class="row">
+                    <div class="col-3">
+                        <input class="btn-submit" type="submit" value="Registrar">
+                    </div>
+                    <div class="col-6">
+                        <input class="btn-submit" type="submit" value="Modificar">
+                    </div>
+                </div>                
+            </div>
+            
             
         </form>
 

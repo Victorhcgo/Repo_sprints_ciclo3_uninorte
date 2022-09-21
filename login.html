@@ -6,17 +6,26 @@
 	<meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=3.0, minimum-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" >
     <link rel="stylesheet" href="CSS/styleA.css">
+    <link rel="stylesheet" href="CSS/style.css">
 	
 
 </head>  
 <body>
-    <!-- PARA IR AL HOME -->
-    <a href="/home.html"> Ir al home</a><br>
+    <!-- inicio => pasar a otras ventanas -->
+    <div class="contenedor2">
+        <form action="" class="form2">
+            <div class="form-header2">   
+                <h1 class="form-title2"><a href="/home.html"> Ir al Home</a></h1>
+            </div>
+        </form>
+    </div>
+    <!-- fin => pasar a otras ventanas -->
+<div class="contenedor">
+    <form class="form">
+        <div class="form-header">
+            <h1 class="form-title">l<span>ogin</span></h1>
+        </div>
 
-    <form class="formulario">
-    
-    <h1>Login</h1>
-     <div class="contenedor">
          <div class="input-contenedor">
             <i class="fas fa-envelope icon"></i>
             <input type="text" placeholder="Correo Electronico">
@@ -27,9 +36,11 @@
             <input type="password" placeholder="Contraseña">
          </div>
          <input type="submit" value="Login" class="button">
+         <br>
+         <br>
          <p>Al registrarte, aceptas nuestras Condiciones de uso y Política de privacidad.</p>
-         <p>¿No tienes una cuenta? <a class="link" href="registrarse.html">Registrate </a></p>
-     </div>
+         <p>¿No tienes una cuenta? <a class="link" href="registrarse.html"> Registrate </a></p>
+</div>
     </form>
 </body>
 </html>

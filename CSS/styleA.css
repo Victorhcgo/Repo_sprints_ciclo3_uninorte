@@ -27,46 +27,65 @@ body {
     background: #fff;
     margin-top: 100px;
     padding: 3px;
+    text-align: center;
 }
-h1{
+/* h1{
     text-align: center;
     color: #ffc527;
     font-size: 40px;
+} */
+
+/* para el <h1> CONTACTO */
+.contenedor .form .form-header .form-title {
+    font-weight: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    color: darkorange;
+    text-align: center;
+    padding: 20px 10;
 }
+
+.contenedor .form .form-header .form-title span {
+    color: azure;
+}
+
+
 input[type="text"],
 input[type="password"]{
     font-size: 20px;
-    width: 82%;
+    width: 87.6%;
     padding: 10px;
     border: none;
 }
 .input-contenedor{
-    margin-bottom: 15px;
+    margin-bottom: 20px;
     border: 1px solid #aaa;
+    max-width: 1600px;
 }
 .icon{
     min-width: 50px;
     text-align: center;
     color: rgb(11, 11, 11);
 }
-.button{
+.contenedor .button{
     border: none;
     width: 50%;
     color: white;
     font-size: 20px;
     background:  #ff851b;
-    padding: 15px 0;
+    padding: 10px 0;
     border-radius: 5px;
     cursor: pointer;
+    text-align: center;
 }
-.button:hover{
+.contenedor .button:hover{
     background: #fcaa1d;
 }
+
 p{
     text-align: center;
 }
 .link{
     text-decoration: none;
-      color: #581dfc;
+      color: #ff851b;
     font-weight: 600;
 }

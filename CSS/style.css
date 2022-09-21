@@ -28,7 +28,7 @@ body{
 
 /* Contenedor */
 .contenedor .form{
-    background: rgba(89, 91, 144, 0.6);
+    background:  rgba(89, 91, 144, 0.7);
     width: 90%;
     max-width: 650px;
     margin: auto;
@@ -38,6 +38,29 @@ body{
     border-radius: 3px;
 }
 
+/* inicio => prueba de contenedor2 */
+.contenedor2 .form2 .form-header2 .form-title2{
+    background:  rgba(89, 91, 144, 0.7);
+    width: 50%;
+    max-width: 650px;
+    margin: auto;
+    padding: 5px 15px;
+    margin-top: 20px;
+    padding-bottom: 15px;
+    border-radius: 10px;
+    /* position: relative; */
+}
+    /* <h1> */
+.contenedor2 .form2 .form-header2 .form-title2 {
+    font-weight: 50%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    /* color: darkorange; */
+    background:rgb(255, 140, 0, 0.7);
+    text-align: center;
+    padding: 20px 10;
+}
+/* fin => prueba de contenedor2 */
 
 .contenedor .form .form-label{
 display: block;
@@ -84,5 +107,23 @@ font-family: 'Roboto';
 }
 
 .contenedor .form .btn-submit:hover{
+    background:#fcaa1d;
+}
+
+/* BOTON HOME */
+.contenedor2 .form2 .form-header2 .form-title2 .btn-submit2{
+    width: 100%;
+    font-family: Arial;
+    outline: none;
+    /* background: rgba(255, 133, 27, 0.116); */
+    font-size: 20px;
+    border: none;
+    color: aliceblue;
+    padding: 10px 0;
+    cursor: pointer;
+    text-align: center;
+}
+
+.contenedor2 .form2 .form-header2 .form-title2 .btn-submit2:hover{
     background:#fcaa1d;
 }

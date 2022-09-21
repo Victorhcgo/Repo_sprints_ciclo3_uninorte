@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    
+</head>
+<body>
+    <!-- pasar a otras ventanas -->
+    <a href="/home.html"> Ir al home</a><br>
+    <!--  -->
+
+
+    <div class="contenedor">
+        <form action="" class="form">
+            <div class="form-header">
+                <h1 class="form-title">A<span>dministrador</span></h1>
+            </div>
+            <label for="Nombres" class="form-label">Nombre:</label>
+            <input class="form-input" type="text" name="Nombres" id="Nombres" placeholder="Ingrese el nombre">
+                    
+            <label for="Apellido" class="form-label">Apellido</label>
+            <input class="form-input" type="text" name="Apellido" id="Apellido" placeholder="Ingrese el apellido">
+                    
+            <label for="CC" class="form-label">Número de identificación</label>
+            <input class="form-input" type="text" name="CC" id="CC" placeholder="Ingrese número de identificación">
+                    
+            <label for="inputTel" class="form-label"> Telefono </label>
+            <input  class="form-input" type="tel" id="inputTel" name="inputTel" placeholder="Ingrese el número de telefono">
+                    
+            <label for="Finput" class="form-label">Fecha de ingreso</label>
+            <input class="form-input" type="date" id="Finput" name="Finput">
+                    
+            <label for="Fouput" class="form-label">Fecha finalizar contrato</label>
+            <input class="form-input"  type="date" id="Fouput" name="Fouput">
+                    
+            <label for="tcon" class="form-label">Tipo de contrato</label>
+            <input class="form-input" list="listTcon" id="tcon" name="tcon">
+            <datalist id="listTcon">
+            <option value="Termino indefinido">
+            <option value="Pretación de servicios">
+            <option value="Por horas">
+            <option value="Contrato de aprendisaje">
+                    <!-- <option value="Viernes"> -->
+            </datalist>
+
+                    <label for="cargo" class="form-label">Cargo</label>
+                    <input class="form-input" type="text" name="cargo" id="cargo" placeholder="Ingrese el cargo">
+
+                    <label for="tcar" class="form-label">Dependencia</label>
+                    <input class="form-input" list="listTcar" id="tcar" name="tcar">
+                    <datalist id="listTcar">
+                    <option value="Admintrativa y finanzas">
+                    <option value="Operario">
+                    <option value="Marketing">
+                    <option value="Ventas">
+                    <option value="Gerencia">
+                    </datalist>
+
+                    <Label class="form-label">Salario</Label>
+                    <input class="form-input" type="text" name="Salario" id="Salario" placeholder="Ingrese el Salario ">
+
+            <label for="mensaje" class="form-label"> Mensaje</label>
+            <textarea name="mensaje" id="mensaje" cols="30" rows="10" class="form-textarea"></textarea>
+
+            <input class="btn-submit" type="submit" value="Registrar">
+            <input class="btn-submit" type="submit" value="Modificar">
+            
+        </form>
+
+    </div>
+
+
+
+
+
+
+</body>
+</html>
